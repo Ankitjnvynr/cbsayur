@@ -17,16 +17,37 @@
 /*--------------------------------------------------------------
 # Common
 --------------------------------------------------------------*/
-:root {
+/* :root {
   --thm-font: "Nunito", sans-serif;
   --thm-reey-font: "reeyregular";
   --thm-gray: #707876;
   --thm-gray-rgb: 112, 120, 118;
-  --thm-primary: #15c8a0;
+  --thm-primary: #014738;
   --thm-primary-rgb: 21, 200, 160;
   --thm-black: #1f2230;
   --thm-black-rgb: 31, 34, 48;
+} */
+:root {
+  --thm-font: "Nunito", sans-serif;
+  --thm-reey-font: "reeyregular";
+
+  /* Ayurvedic Color Palette */
+  --thm-gray: #8b6f47; /* Muted Earthy Brown */
+  --thm-gray-rgb: 139, 111, 71;
+
+  --thm-primary: #5c8233; /* Herbal Green */
+  --thm-primary-rgb: 92, 130, 51;
+
+  --thm-secondary: #d4a373; /* Warm Sandstone */
+  --thm-secondary-rgb: 212, 163, 115;
+
+  --thm-accent: #a03e29; /* Deep Ayurvedic Red */
+  --thm-accent-rgb: 160, 62, 41;
+
+  --thm-black: #3b2f2f; /* Deep Earth Brown */
+  --thm-black-rgb: 59, 47, 47;
 }
+
 
 .row {
   --bs-gutter-x: 30px;
@@ -1552,7 +1573,7 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(1);
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: transform 7000ms ease;
   z-index: 1;
 }
@@ -1564,7 +1585,7 @@ h6 {
   width: 100%;
   height: 100%;
   content: "";
-  background: rgba(var(--thm-black-rgb), 0.7);
+  /* background: rgba(var(--thm-black-rgb), 0.7); */
   z-index: 2;
 }
 
@@ -1800,7 +1821,7 @@ h6 {
 }
 
 .main-slider-two .image-layer-overlay {
-  background: rgba(var(--thm-primary-rgb), 0.5);
+  /* background: rgba(var(--thm-primary-rgb), 0.5); */
 }
 
 .main-slider-two .thm-btn {

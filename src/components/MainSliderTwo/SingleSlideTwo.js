@@ -11,7 +11,7 @@ const SingleSlideTwo = ({ slide = {} }) => {
         className="image-layer"
         style={{ backgroundImage: `url(${bg.src})` }}
       ></div>
-      <div className="image-layer-overlay"></div>
+      <div className=""></div>
       <Container>
         <Row>
           <Col lg={12} className="text-center">

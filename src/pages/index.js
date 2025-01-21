@@ -1,32 +1,33 @@
 import BrandOne from "@/components/BrandOne/BrandOne";
-import CausesOne from "@/components/CausesOne/CausesOne";
-import Charity from "@/components/Charity/Charity";
+import CausesTwo from "@/components/CausesTwo/CausesTwo";
+import Counters from "@/components/Counters/Counters";
+import EventsOne from "@/components/EventsOne/EventsOne";
+import FourIcon from "@/components/FourIcon/FourIcon";
 import GalleryOne from "@/components/GalleryOne/GalleryOne";
-import HelpingOne from "@/components/HelpingOne/HelpingOne";
-import HelpThem from "@/components/HelpThem/HelpThem";
-import JoinOne from "@/components/JoinOne/JoinOne";
+import Introduction from "@/components/Introduction/Introduction";
 import Layout from "@/components/Layout/Layout";
-import MainSlider from "@/components/MainSlider/MainSlider";
-import NewsOne from "@/components/NewsOne/NewsOne";
-import TestimonialOne from "@/components/TestimonialOne/TestimonialOne";
-import ThreeBoxes from "@/components/ThreeBoxes/ThreeBoxes";
+import MainSliderTwo from "@/components/MainSliderTwo/MainSliderTwo";
+import NewsTwo from "@/components/NewsTwo/NewsTwo";
+import Volunteer from "@/components/Volunteer/Volunteer";
+import WeInspire from "@/components/WeInspire/WeInspire";
+import React from "react";
 
-const Home = () => {
+const Home2 = () => {
   return (
-    <Layout pageTitle="Home One">
-      <MainSlider />
-      <Charity />
-      <CausesOne />
-      <JoinOne />
-      <ThreeBoxes />
-      <HelpingOne />
-      <GalleryOne />
-      <TestimonialOne />
-      <HelpThem />
-      <NewsOne />
+    <Layout pageTitle="Home Two">
+      <MainSliderTwo />
+      <Introduction />
+      <FourIcon />
+      <WeInspire />
       <BrandOne />
+      <EventsOne />
+      <Volunteer />
+      <CausesTwo />
+      <Counters />
+      <NewsTwo />
+      <GalleryOne className="gallery-two" />
     </Layout>
   );
 };
 
-export default Home;
+export default Home2;
